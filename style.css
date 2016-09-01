@@ -1,0 +1,271 @@
+/*
+
+
+*/
+
+body{
+	background-color: #797979;
+	color: #003005;
+	font-size: 87.5%;
+	font-family: Arial, 'lucida Sans unicode';
+	line-height: 1.5;
+	text-align: left;
+}
+
+.body{
+	margin: 0 auto;
+	width:70%;
+	clear: both;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited{
+	color: red;
+
+}
+a:hover, a:active{
+	color: white;
+	background-color: red;
+
+}
+
+.mainHeader img {
+	width: 30%;
+	height: auto;
+	margin:2% 0;
+}
+.mainHeader nav{
+	background-color: #666;
+	height: 40px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.mainHeader ul li{
+	list-style: none;
+	margin: 0 auto;
+	float: left;
+	display: inline;
+}
+
+.mainHeader nav a:link, .mainHeader nav a:visited {
+	color:#fff;
+	display: inline-block;
+	padding: 10px 25px;
+	height: 20;
+}
+
+.mainHeader nav a:hover, 
+.mainHeader nav a:active, 
+.mainHeader nav .active a:link, 
+.mainHeader nav .active a:visited {
+	background-color: #cf353f;
+	text-shadow: none;
+}
+
+.mainHeader nav ul li a{
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.maincontent{
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	line-height:25px;
+}
+.content{
+	width:70%;
+	float:left;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.topcontent{
+	background-color: white;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+
+.bottomcontent{
+	background-color: white;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+
+.top-sidebar{
+	width: 21%;
+	float: left;
+	background-color: white;
+	margin:2% 0 2% 3%;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 2% 3%;
+}
+
+.post-info{
+	font-style: italic;
+	color: gray;
+	font-size:85%;
+}
+.middle-sidebar{
+	width: 21%;
+	float: left;
+	background-color: white;
+	margin:0 0 2% 3%;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 2% 3%;
+}
+.bottom-sidebar{
+	width: 21%;
+	float: left;
+	background-color: white;
+	margin:0 0 2% 3%;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 2% 3%;
+}
+
+.mainFooter{
+	width: 100%;
+	float:left;
+	background-color: #666;
+	margin-top: 2%;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin: 2% 0;
+	height: 40px;
+
+}
+
+.mainFooter p {
+	width: 92%;
+	margin: 1% 4%;
+	color: white;
+}
+
+@media only screen and (min-width:150px) and (max-width: 600px)
+{
+
+.body{
+font-size: 95%;
+	width:90%;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited{
+	color: red;
+
+}
+a:hover, a:active{
+	color: white;
+	background-color: red;
+
+}
+
+.mainHeader img {
+	width: 100%;
+}
+
+.mainHeader nav{
+	height: 160px;
+}
+.mainHeader nav ul{
+	padding-left: 0;
+}
+.mainHeader nav ul li{
+	width:100%;
+	text-align: center;
+}
+
+.mainHeader nav a:link, .mainHeader nav a:visited {
+	padding: 10px 25px;
+	height: 20px;
+	display: block;
+}
+
+
+.maincontent{
+	line-height:30px;
+
+}
+.content{
+	width:100%;
+	float:left;
+	margin-top: 2%;
+}
+
+.topcontent{
+	background-color: white;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+
+.bottomcontent{
+	background-color: white;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+
+.top-sidebar, .middle-sidebar, .bottom-sidebar{
+	width: 94%;
+	float: left;
+	background-color: white;
+	margin:2% 0 0% 0%;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 2% 3%;
+}
+
+.post-info{
+display: none;
+}
+
+.mainFooter{
+	width: 100%;
+	float:left;
+	background-color: #666;
+	margin-top: 2%;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin: 2% 0;
+	height: 40px;
+
+}
+
+.mainFooter p {
+	width: 92%;
+	margin: 2% auto;
+	color: white;
+}
+
+
+}
